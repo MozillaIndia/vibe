@@ -1,0 +1,187 @@
+/* Guiding Index for Style
+ * =======================
+ *
+ * 0. Reset
+ * 1. Imports
+ * 2. Elements
+ * 3. Id, classes
+ * 4. Pseudo classes
+ * 5. Media queries
+ */
+
+/* Imports */
+
+
+/* Elements */
+
+html {
+        background-color: #F6F4EC;
+}
+
+body {
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Open Sans";
+		font-size: 14px;
+		line-height: 20px;
+		color: #333;
+        background: -webkit-linear-gradient(#D7D3C8, #F6F4EC);
+        background: -o-linear-gradient(#D7D3C8, #F6F4EC);
+        background: -moz-linear-gradient(#D7D3C8, #F6F4EC);
+        background: linear-gradient(#D7D3C8, #F6F4EC);
+        margin: 0;
+        overflow-x: hidden;
+}
+
+a img {
+        border: 0;
+}
+
+a{
+	color:#0096dd;
+	text-decoration:none
+}
+
+a:hover,a:active{
+	color:#0073aa;
+	text-decoration:underline
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Open Sans Light', sans-serif;
+	font-weight:normal;
+	display:block;
+	margin:0 0 12px 0;
+	line-height:100%;
+	text-shadow:0px 1px 0px rgba(255,255,255,0.75);
+	color:#484848
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+}
+
+textarea,input[type=search],input[type=text]{
+	height:20px;
+	width: 500px;
+	background:#fff;
+	border-color:#b2b2b2;
+	border-style:solid;
+	border-width:1px;
+	font-size:12px;
+	font-family:'Open Sans', sans-serif;
+	padding:3.3333333333333px 6.6666666666667px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0 1px rgba(255,255,255,0.5);
+	-moz-box-shadow:0 1px rgba(255,255,255,0.5);
+	box-shadow:0 1px rgba(255,255,255,0.5);
+	-webkit-transition:all linear .1s;
+	-moz-transition:all linear .1s;
+	-o-transition:all linear .1s;
+	-ms-transition:all linear .1s;
+	transition:all linear .1s
+}
+
+textarea{
+	height:auto
+}
+
+textarea:focus,input[type=search]:focus,input[type=text]:focus,input.focus{
+	border-color:#42a4e0;
+	-webkit-box-shadow:0 0 0 2px rgba(73,173,227,0.4);
+	-moz-box-shadow:0 0 0 2px rgba(73,173,227,0.4);
+	box-shadow:0 0 0 2px rgba(73,173,227,0.4);
+	-webkit-transition:all linear .1s;
+	-moz-transition:all linear .1s;
+	-o-transition:all linear .1s;
+	-ms-transition:all linear .1s;
+	transition:all linear .1s
+}
+
+/* ID's and classes */
+
+
+#masthead h1 { 
+	text-align:right;
+	margin:-110px 0 62px
+}
+
+#masthead {
+	display:block;
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+	position:relative;
+	zoom:1
+}
+
+#masthead:after {
+	display:block;
+	visibility:hidden;
+	height:0;
+	clear:both;
+	content:"."
+}
+
+#masthead h2{
+	padding:30px 0 20px;
+	margin:0 10px
+}
+
+#masthead nav{
+	float:right;
+	margin-right:16px;
+	text-transform:uppercase;
+	font-size:13px;
+	font-family:'Open Sans', sans-serif
+}
+
+#masthead nav li{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	list-style-type:none;
+	margin:0
+}
+
+#masthead nav li a,#masthead nav li b{
+	display:inline-block;
+	padding:12px;
+	font-weight:normal
+}
+
+#masthead nav li b,#masthead nav li .current{
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	background-image:url(https://mozilla.org.uk/media/img/sandstone/menu-current.png)
+}
+
+#masthead nav li a,#masthead nav li a:link,#masthead nav li a:visited{
+	color:#484848
+}
+
+#nav-main .toggle{
+	display:none
+}
+
+#masthead nav.breadcrumbs{
+	padding:0 10px 10px 10px;
+	float:none
+}
+
+#masthead nav.breadcrumbs a,#masthead nav.breadcrumbs span{
+	margin-right:.5em;
+	margin-left:.5em
+}
+
+#masthead nav.breadcrumbs a:first-child,#masthead nav.breadcrumbs span:first-child{
+	margin-left:0
+}
+
+#searchMe {
+	margin-top: 10px;
+	margin-left: 410px;
+}
+
+/* Media Queries */
+
