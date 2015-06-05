@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="vibe">
+<html lang="en">
   <head>
     <title>
       Events | Mozilla India Vibe
@@ -41,32 +41,22 @@
         </ul>
       </nav>
     </header>
-    <br>
 
-    <h1 id="heading" style="text-align:center">
-      Future Events
-    </h1>
+    <div class="span6" style="padding-top: 250px; padding-left: 50px;">
+      <h3>
+        Looks like one of our developers was drunk and redirected you here.
+      </h3>
 
-    <form>
-      <input id="searchMe" placeholder="Type City" type="text">
-    </form>
-
-    <div id="centfix" ng-controller="mainCtrl">
-      <section class="event" ng-repeat="event in events">
-        <p class="calendar event-time">
-          <time datetime="{{event.date | date}}"><span class="calendar-month">{{event.start | date:"MMM"}}</span> <span class="calendar-date">{{event.start | date:"dd"}}</span> <span class="calendar-year">{{event.start | date:"yyyy"}}</span></time>
-        </p>
-
-        <h3>
-          <a>{{event.name}}</a>
-        </h3>
-
-        <p>
-          {{event.description}}
-        </p>
-      </section>
+      <h4>
+        <a href="/">Click here to get back.</a>
+      </h4>
     </div>
-    <noscript>JavaScript has to be enabled on your browser to get this working.</noscript>
+    <!--Content Area: 404 Image-->
+
+    <div class="span6">
+      <img alt="Sorry" src="/assets/404.png">
+    </div>
+
     <footer>
       <!--Tabzilla stylesheet-->
       <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet">
