@@ -3,6 +3,8 @@ vibe
 
 The bottom-up from-the-scratch events' portal for MozillaIndia.org
 
+### Currently deployed at [MozillaIndia-Vibe](http://devs.mozillaindia.org/vibe/)
+
 ##Setup Instructions
 
 - Install npm
