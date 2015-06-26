@@ -1,62 +1,22 @@
-vibe
+Vibe
 ====
 
 The bottom-up from-the-scratch events' portal for MozillaIndia.org
 
-##Setup Instructions
+## How to deply Vibe for your comunity
 
-- Install npm
+- Fork the repo
+- Edit the config.js file
 
-```
-yum install npm
-```
-
-- Install the dependencies
+For example, to deploy Vibe for german community (which lists the future events happening in Germany)
 
 ```
-npm install -g bower
-npm install -g http-server
-bower install
+.run(function ($rootScope) {
+    $rootScope.countryName = "Germany";
+    $rootScope.blogUrl = "";
+    $rootScope.hiveUrl = "";
+    $rootScope.leaderboardUrl = "";
+});
 ```
 
-- Start the server
-
-```
-http-server
-```
-
-## Contributing
-
-#### Coding style
-  
-Do:
-
-- 4 spaces indent for JavaScript files.
-- 2 space for rest of them.
-- Keep newline at EOF.
-- Use newlines liberally to visually separate logical blocks of code.
-
-Dont:
-
-- Don't mix tabs and spaces.
-- Don't use comma-first coding style.
-- Do not, at whatever cost, leave trailing whitespaces. Fix your editor if needed.
-
-
-#### Commits
-
-- Give proper commit messages that describe the change.
-- Each commit message should be granular, solving a specific issue.
-- Don't mangle a lot of commits together, unless asked for.
-- Use GFM in commit messages to link to issues if they are related.
-- Use a short summary on the first line.
-- Use Markdown in commit messages to make them more readable.
-- Wrap commit message lines at 80 chars.
-
-
-#### Pull requests
-
-- Ensure that you have worked on the latest code to avoid re-introducing removed diffs.
-- Give a proper title to your pull requests.
-- Giving a description will make the aliens smile.
-- Giving a description is no excuse to commit messages that make aliens sad.
+>Note: This is deployed in github pages
