@@ -1,4 +1,4 @@
-angular.module("vibe", [])
+angular.module("vibe", ["ngRoute"])
 
 .run(function ($rootScope) {
     $rootScope.countryName = "India"; // Your country name (Mandatory) | List of countries - http://is.gd/ZRQKky

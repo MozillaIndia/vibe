@@ -1,0 +1,11 @@
+<section class="event" ng-cloak ng-repeat="event in events | filter:search | orderBy:'date'">
+  <p class="calendar event-time">
+    <time datetime="{{event.date | date}}"><span class="calendar-month">{{event.start | date:"MMM"}}</span> <span class="calendar-date">{{event.start | date:"dd"}}</span> <span class="calendar-year">{{event.start | date:"yyyy"}}</span></time>
+  </p>
+  <h3>
+    <a href="{{event.event_url}}">{{event.name}}</a>
+  </h3>
+  <p>
+    {{event.description}}
+  </p>
+</section>

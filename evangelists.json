@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Manish Goregaokar",
+        "github": "http://github.com/Manishearth",
+        "kickass-in": [
+            "Firefox",
+            "Rust",
+            "Servo",
+            "Javascript"
+        ],
+        "developer": true,
+        "location": "Mumbai",
+        "mozillians": "https://mozillians.org/en-US/u/manishearth"
+    },
+    {
+        "name": "Jaipradeesh",
+        "github": "http://github.com/dolftax",
+        "kickass-in": [
+            "Javascript",
+            "FirefoxOS"
+        ],
+        "developer": true,
+        "location": "Bangalore",
+        "mozillians": "https://mozillians.org/en-US/u/dolftax"
+    }
+]
