@@ -12,4 +12,25 @@ angular.module("vibe")
 	    .error (function (data) {
 	    	$scope.data = "Request failed!";
 	    });
+})
+
+.filter( "clearHTML", function() {
+	return function( input ) {
+		return escapeHtml(input);
+	}
 });
+
+function escapeHtml(string) {
+  	var entityMap = {
+	    "&amp;" : "&",
+	    "&lt;"  : "<",
+	    "&gt;"  : ">",
+	    '&quot;': '"',
+	    '&#39;' : "'",
+	    '&#x2F;': "/" 
+	};
+   	return String(string).replace(/&[^\s]*;/g, function (s) {
+      return entityMap[s];
+    });
+}
+

@@ -54,11 +54,11 @@
         </p>
 
         <h3>
-          <a href="{{event.event_url}}">{{event.name}}</a>
+          <a href="{{event.event_url}}">{{event.name | clearHTML}}</a>
         </h3>
 
         <p>
-          {{event.description}}
+          {{event.description | clearHTML}}
         </p>
       </section>
     </div>
