@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="vibe">
+  <head>
+    <title ng-bind="'Join | Mozilla ' + countryName">
+    </title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/favicon.ico" rel="icon">
+    <link href="css/style.css" rel="stylesheet"><!--Site Specific Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/join-styles.css">
+  </head><!--Navigation Header-->
+
+  <body ng-controller="mainCtrl">
+    <header id="masthead">
+      <a href="//www.mozilla.org/" id="tabzilla">Mozilla</a>
+      <nav id="nav-main">
+        <span class="toggle" role="button" tabindex="0">Menu</span>
+        <ul id="nav-main-menu">
+          <li class="first">
+            <a href="//www.mozilla.org/about/">About</a>
+          </li>
+
+          <li>
+            <a href="//www.mozilla.org/mission/">Mission</a>
+          </li>
+
+          <li ng-if="blogUrl">
+            <a href="{{blogUrl}}">Blog</a>
+          </li>
+
+          <li ng-if="hiveUrl">
+            <a href="{{hiveUrl}}">Hive</a>
+          </li>
+
+          <li class="last" ng-if="leaderboardUrl">
+            <a href="{{leaderboardUrl}}">Leaderboard</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+
+    <h1 id="heading" style="text-align:center">
+      Join Mozilla India
+    </h1>
+
+    <div id="centfix">
+      <p id="mozillian-intro" align="center">Mozilla exists to promote openness, innovation and opportunity on the Internet. The success of our mission depends on participation from people like you. The team helps easily organize contributors to make it easier for people to communicate, collaborate and recognize each other in India.</p>
+
+      <h3 id="instruction" align="center"> Head to <a href="https://mozillians.org/en-US/" target="_blank">mozillians.org</a> and sign up there </h3>
+
+      <iframe src="https://docs.google.com/forms/d/1fGZ8cdslUPZX19nj-DXYmTbe2tAIRAdQ-XeySts7fBs/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+    </div>
+
+
+    <!--<form>
+      <input id="searchMe" placeholder="Type City" type="text" ng-model="mozSearch">
+    </form>
+
+      <section class="event" ng-cloak ng-repeat="event in events | filter:mozSearch | orderBy:'date'">
+        <p class="calendar event-time">
+          <time datetime="{{event.date | date}}"><span class="calendar-month">{{event.start | date:"MMM"}}</span> <span class="calendar-date">{{event.start | date:"dd"}}</span> <span class="calendar-year">{{event.start | date:"yyyy"}}</span></time>
+        </p>
+
+        <h3>
+          <a href="{{event.event_url}}">{{event.name | clearHTML}}</a>
+        </h3>
+
+        <p>
+          {{event.description | clearHTML}}
+        </p>
+      </section>
+    </div> -->
+    <noscript>JavaScript has to be enabled on your browser to get this working.</noscript>
+    <footer>
+      <!--Tabzilla stylesheet-->
+      <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet">
+    </footer>
+        <script src="http://mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script type="text/javascript" src="config.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
