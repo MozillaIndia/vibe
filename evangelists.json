@@ -19,8 +19,8 @@
         "img": "https://mozillians.org/media/uploads/sorl-cache/be/e2/bee2ddcc8f4158e0b57fc9e22ba92dc0.jpg",
         "evangelism": [
             "Javascript",
-            "Gaia",
-            "FirefoxOS"
+            "FirefoxOS",
+            "Tech Evangelism"
         ],
         "developer": true,
         "location": "Bangalore",
@@ -36,7 +36,7 @@
             "Tech Evangelism"
         ],
         "developer": true,
-        "location": "Kolkata",
+        "location": "Bangalore",
         "mozillians": "https://mozillians.org/en-US/u/Debloper/"
     },
     {
@@ -45,8 +45,9 @@
         "img": "https://mozillians.org/media/uploads/sorl-cache/98/70/987038faf08a78e05b49c9072736df8b.jpg",
         "evangelism": [
             "Javascript",
-            "HTML5",
-            "Open-Source Evangelism"
+            "DevOps",
+            "B2G",
+            "Tech Evangelism"
         ],
         "developer": true,
         "location": "Bangalore",
