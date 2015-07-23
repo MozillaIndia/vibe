@@ -1,9 +1,11 @@
 <section class="evangelists" ng-cloak ng-repeat="evangelist in evangelists | filter:search | orderBy:'evangelist'">
   <div>
-    <p>
-      <a href="{{evangelist.mozillians}}">{{evangelist.name}}</a><br>
-      {{evangelist.github}}<br>
+  	<img src="{{evangelist.img}}" class="avatar">
+    <h3><a href="{{evangelist.mozillians}}">{{evangelist.name}}</a></h3>
+    <p class="tags">{{evangelist.evangelism}}</p>
+    <p><a href="{{evangelist.github}}">{{evangelist.github}}</a><br>
       {{evangelist.location}}
     </p>
   </div>
 </section>
+
