@@ -1,21 +1,21 @@
 angular.module("vibe")
 
-.config(function($routeProvider, $locationProvider) {
+.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
-	$routeProvider
-	.when("/events", {
+	$urlRouterProvider.otherwise("/events");
+	$locationProvider.html5Mode(true);
+
+	$stateProvider
+	.state("events", {
+		url: "/events",
 		templateUrl: "/views/events.html",
 		controller: "eventsCtrl"
 	})
 
-	.when("/evangelists", {
+	.state("evangelists", {
+		url: "/evangelists",
 		templateUrl: "/views/evangelists.html",
 		controller: "evangelistsCtrl"
-	})
+	});
 
-	.otherwise({
-		redirectTo: "/events"
-	})
-
-	$locationProvider.html5Mode(true);
 });

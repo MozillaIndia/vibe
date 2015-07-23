@@ -1,8 +1,9 @@
 [
     {
         "name": "Manish Goregaokar",
-        "github": "http://github.com/Manishearth",
-        "kickass-in": [
+        "github": "https://github.com/Manishearth",
+        "img": "https://secure.gravatar.com/avatar/0a3069491bfded90cdf623341cadc1d1?s=800&r=pg&d=https%3A%2F%2Fmozillians.org%2Fmedia%2Fimg%2Fdefault_avatar.png",
+        "evangelism": [
             "Firefox",
             "Rust",
             "Servo",
@@ -14,13 +15,130 @@
     },
     {
         "name": "Jaipradeesh",
-        "github": "http://github.com/dolftax",
-        "kickass-in": [
+        "github": "https://github.com/dolftax",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/be/e2/bee2ddcc8f4158e0b57fc9e22ba92dc0.jpg",
+        "evangelism": [
             "Javascript",
+            "Gaia",
             "FirefoxOS"
         ],
         "developer": true,
         "location": "Bangalore",
         "mozillians": "https://mozillians.org/en-US/u/dolftax"
+    },
+    {
+        "name": "Soumya Deb",
+        "github": "https://github.com/Debloper",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/81/5d/815df4792c4f41c1e7a0ac8de88e637f.jpg",
+        "evangelism": [
+            "DevOps",
+            "B2G",
+            "Tech Evangelism"
+        ],
+        "developer": true,
+        "location": "Kolkata",
+        "mozillians": "https://mozillians.org/en-US/u/Debloper/"
+    },
+    {
+        "name": "Kaustav Das Modak",
+        "github": "https://github.com/kaustavdm",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/98/70/987038faf08a78e05b49c9072736df8b.jpg",
+        "evangelism": [
+            "Javascript",
+            "HTML5",
+            "Open-Source Evangelism"
+        ],
+        "developer": true,
+        "location": "Bangalore",
+        "mozillians": "https://mozillians.org/en-US/u/kaustavdm/"
+    },
+    {
+        "name": "Sayak Sarkar",
+        "github": "https://github.com/sayak-sarkar",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/e2/ef/e2ef0efc587d6407dc4c0589ac04cfb0.jpg",
+        "evangelism": [
+            "Tech Evangelism",
+            "Firefox"
+        ],
+        "developer": true,
+        "location": "Pune",
+        "mozillians": "https://mozillians.org/en-US/u/Sayak/"
+    },
+    {
+        "name": "Saurabh Anand",
+        "github": "https://github.com/sawrubh",
+        "img": "https://secure.gravatar.com/avatar/4257006557ebd35497342f3a192fd569?s=800&r=pg&d=https%3A%2F%2Fmozillians.org%2Fmedia%2Fimg%2Fdefault_avatar.png",
+        "evangelism": [
+            "c++",
+            "Javascript",
+            "rust"
+        ],
+        "developer": true,
+        "location": "Delhi",
+        "mozillians": "https://mozillians.org/en-US/u/sawrubh/"
+    },
+    {
+        "name": "Sudheesh Singanamalla",
+        "github": "https://github.com/sudheesh001",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/10/eb/10eb917eadd345c66579578caad4b256.jpg",
+        "evangelism": [
+            "l10n",
+            "Javascript",
+            "Gaia"
+        ],
+        "developer": true,
+        "location": "Hyderabad",
+        "mozillians": "https://mozillians.org/en-US/u/sudheesh/"
+    },
+    {
+        "name": "Priyanka Nag",
+        "github": "https://github.com/priyankanag",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/61/8b/618b5e8d104569bb8687ddd802c04381.jpg",
+        "evangelism": [
+            "Womoz",
+            "Tech Evangelism",
+            "FirefoxOS"
+        ],
+        "developer": true,
+        "location": "Pune",
+        "mozillians": "https://mozillians.org/en-US/u/priynag/"
+    },
+    {
+        "name": "Ankit Gadgil",
+        "github": "https://github.com/ankitgadgil",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/79/a6/79a6b16696cef237525fe526030298df.jpg",
+        "evangelism": [
+            "Webmaker ",
+            "FirefoxOS",
+            "Open Web"
+        ],
+        "developer": true,
+        "location": "Pune",
+        "mozillians": "https://mozillians.org/en-US/u/ankitgadgil/"
+    },
+    {
+        "name": "Akshat Kedia",
+        "github": "https://github.com/akshatkedia",
+        "img": "https://secure.gravatar.com/avatar/72d79504dce12c27f3c4d64175376e68?s=800&r=pg&d=https%3A%2F%2Fmozillians.org%2Fmedia%2Fimg%2Fdefault_avatar.png",
+        "evangelism": [
+            "HTML5",
+            "Open Source",
+            "Javascript"
+        ],
+        "developer": true,
+        "location": "Mumbai",
+        "mozillians": "https://mozillians.org/en-US/u/_akshatkedia/"
+    },
+    {
+        "name": "Chandrakant Dhutadmal",
+        "github": "",
+        "img": "https://mozillians.org/media/uploads/sorl-cache/b1/0e/b10e470179ecff24a0e22673090164b4.jpg",
+        "evangelism": [
+            "Localization",
+            "Evangelism"
+        ],
+        "developer": false,
+        "location": "Pune",
+        "mozillians": "https://mozillians.org/en-US/u/chandrakantd/"
     }
 ]
