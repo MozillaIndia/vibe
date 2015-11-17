@@ -3,7 +3,7 @@ Vibe
 
 The bottom-up from-the-scratch events' portal for MozillaIndia.org
 
-## How to deply Vibe for your comunity
+## How to deploy Vibe for your comunity
 
 - Fork the repo
 - Edit the config.js file
